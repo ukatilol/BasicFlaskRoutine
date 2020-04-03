@@ -60,6 +60,8 @@ namespace TreeRoutine.Routine.BuildYourOwnRoutine
 
             ProfileDirectory = DirectoryFullName + @"/Profile/";
             ExtensionDirectory = DirectoryFullName + @"/Extension/";
+            Directory.CreateDirectory(DirectoryFullName);
+            Directory.CreateDirectory(ExtensionDirectory);
             ExtensionLoader.LoadAllExtensions(ExtensionCache, ExtensionDirectory);
             ProcessLoadedExtensions();
 
