@@ -163,5 +163,6 @@
     "FlaskFullRechargeOnHit" : 0,
 	"FlaskEffectNotRemovedOnFullMana" : 0,
 	"FlaskBuffAttackLifeLeechWhileHealing" : 5
+    "FlaskBuffSpellEnergyShieldLeechWhileHealing": 0
   }
 }
